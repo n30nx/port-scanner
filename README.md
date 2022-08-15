@@ -5,21 +5,16 @@ This tool is for educational purposes only
 A simple port scanner with rust
 
 ## Usage
-Clone the repo
 ```sh
-git clone github.com/n30nx/port-scanner
-```
+# Clone the repo
+$ git clone github.com/n30nx/port-scanner
 
-```sh
-cd port-scanner
-```
+# Change directory to port-scanner
+$ cd port-scanner
 
-Run cargo build
-```sh
-cargo build --release
-```
+# Run cargo build
+$ cargo build --release
 
-And you can start using the tool
-```sh
-target/release/port-scanner ip port_start,port_end scan_timeout
+# Start using the tool
+$ target/release/port-scanner ip port_start,port_end scan_timeout
 ```
